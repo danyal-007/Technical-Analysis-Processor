@@ -31,11 +31,11 @@ graph TB
     K --> F
     K --> G
     
-    style A fill:#e1f5fe
-    style H fill:#c8e6c9
-    style I fill:#fff3e0
-    style J fill:#fce4ec
-    style K fill:#f3e5f5
+    style A fill:#e1f5fe,color:#000000
+    style H fill:#c8e6c9,color:#000000
+    style I fill:#fff3e0,color:#000000
+    style J fill:#fce4ec,color:#000000
+    style K fill:#f3e5f5,color:#000000
 ```
 
 ### Data Processing Pipeline
@@ -64,10 +64,10 @@ flowchart TD
     Q --> K
     Q --> L
     
-    style A fill:#e3f2fd
-    style N fill:#e8f5e8
-    style E fill:#ffebee
-    style Q fill:#fff8e1
+    style A fill:#e3f2fd,color:#000000
+    style N fill:#e8f5e8,color:#000000
+    style E fill:#ffebee,color:#000000
+    style Q fill:#fff8e1,color:#000000
 ```
 
 ### Price Source Calculation Flow
@@ -97,10 +97,10 @@ flowchart TD
     I --> M
     J --> M
 
-    style A fill:#e1f5fe
-    style M fill:#c8e6c9
-    style H fill:#fff3e0
-    style L fill:#fff3e0
+    style A fill:#e1f5fe,color:#000000
+    style M fill:#c8e6c9,color:#000000
+    style H fill:#fff3e0,color:#000000
+    style L fill:#fff3e0,color:#000000
 ```
 
 ### Key Features
@@ -235,10 +235,10 @@ flowchart TD
     J["Vectorized Operations"] --> D
     K["Numba CPU Optimization"] --> D
 
-    style A fill:#e3f2fd
-    style H fill:#c8e6c9
-    style I fill:#fff3e0
-    style J fill:#f3e5f5
+    style A fill:#e3f2fd,color:#000000
+    style H fill:#c8e6c9,color:#000000
+    style I fill:#fff3e0,color:#000000
+    style J fill:#f3e5f5,color:#000000
 ```
 
 #### Exponential Moving Average (EMA) Calculation
@@ -259,9 +259,9 @@ flowchart TD
     E --> G
     G --> D
 
-    style A fill:#e3f2fd
-    style F fill:#c8e6c9
-    style G fill:#fff3e0
+    style A fill:#e3f2fd,color:#000000
+    style F fill:#c8e6c9,color:#000000
+    style G fill:#fff3e0,color:#000000
 ```
 
 #### Hull Moving Average (HMA) Calculation
@@ -279,8 +279,8 @@ flowchart TD
     H["Vectorized Weights"] --> C
     I["Sliding Windows"] --> E
 
-    style A fill:#e3f2fd
-    style F fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style F fill:#c8e6c9,color:#000000
 ```
 
 #### RSI (Relative Strength Index) Calculation
@@ -298,8 +298,8 @@ flowchart TD
     I["Numba Acceleration"] --> E
     J["Chunk Consistency"] --> H
 
-    style A fill:#e3f2fd
-    style G fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style G fill:#c8e6c9,color:#000000
 ```
 
 #### MACD (Moving Average Convergence Divergence) Calculation
@@ -317,8 +317,8 @@ flowchart TD
     H["Parallel EMAs"] --> C
     I["Vectorized Operations"] --> D
 
-    style A fill:#e3f2fd
-    style F fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style F fill:#c8e6c9,color:#000000
 ```
 
 #### KDJ Stochastic Oscillator Calculation
@@ -337,8 +337,8 @@ flowchart TD
     J["GPU Rolling Min/Max"] --> B
     K["Vectorized SMAs"] --> E
 
-    style A fill:#e3f2fd
-    style H fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style H fill:#c8e6c9,color:#000000
 ```
 
 #### Williams %R Calculation
@@ -354,8 +354,8 @@ flowchart TD
     F["GPU Tensor Processing"] --> C
     G["Division by Zero Handling"] --> D
 
-    style A fill:#e3f2fd
-    style D fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style D fill:#c8e6c9,color:#000000
 ```
 
 #### On Balance Volume (OBV) Calculation
@@ -377,8 +377,8 @@ flowchart TD
     K["Vectorized Operations"] --> D
     L["GPU Acceleration"] --> E
 
-    style A fill:#e3f2fd
-    style J fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style J fill:#c8e6c9,color:#000000
 ```
 
 #### RVSI (Relative Volume Strength Index) Calculation
@@ -405,8 +405,8 @@ flowchart TD
     N["Z-Length Parameter"] --> F
     O["Base Parameter"] --> G
 
-    style C fill:#fff3e0
-    style K fill:#c8e6c9
+    style C fill:#fff3e0,color:#000000
+    style K fill:#c8e6c9,color:#000000
 ```
 
 #### Savitzky-Golay Filter Calculation
@@ -423,8 +423,8 @@ flowchart TD
     H["Batched Processing"] --> E
     I["GPU-Like Speed"] --> F
 
-    style A fill:#e3f2fd
-    style F fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style F fill:#c8e6c9,color:#000000
 ```
 
 #### Volume-Weighted Moving Average (VWMA) Calculation
@@ -442,8 +442,8 @@ flowchart TD
     I["Vectorized Windows"] --> D
     J["Division Masking"] --> G
 
-    style A fill:#e3f2fd
-    style G fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style G fill:#c8e6c9,color:#000000
 ```
 
 #### Awesome Oscillator (AO) Calculation
@@ -461,8 +461,8 @@ flowchart TD
     G["PyTorch Acceleration"] --> D
     H["Parallel SMAs"] --> E
 
-    style A fill:#e3f2fd
-    style F fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style F fill:#c8e6c9,color:#000000
 ```
 
 #### Stochastic RSI Calculation
@@ -479,8 +479,8 @@ flowchart TD
     H["Vectorized Calculations"] --> D
     I["Sliding Window Means"] --> E
 
-    style A fill:#e3f2fd
-    style F fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style F fill:#c8e6c9,color:#000000
 ```
 
 ### Performance Optimization Architecture
@@ -537,8 +537,8 @@ flowchart TD
     G --> O
     J --> O
 
-    style A fill:#e3f2fd
-    style O fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style O fill:#c8e6c9,color:#000000
 ```
 
 #### True Strength Index (TSI) Calculation
@@ -556,8 +556,8 @@ flowchart TD
     I["Vectorized Operations"] --> E
     J["Smoothing Stages"] --> F
 
-    style A fill:#e3f2fd
-    style G fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style G fill:#c8e6c9,color:#000000
 ```
 
 #### Commodity Channel Index (CCI) Calculation
@@ -573,8 +573,8 @@ flowchart TD
     G["GPU Mean Deviation"] --> D
     H["Division Guards"] --> E
 
-    style A fill:#e3f2fd
-    style E fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style E fill:#c8e6c9,color:#000000
 ```
 
 #### Chande Momentum Oscillator (CMO) Calculation
@@ -592,8 +592,8 @@ flowchart TD
     H["Vectorized Separation"] --> C
     I["Safe Division"] --> F
 
-    style A fill:#e3f2fd
-    style F fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style F fill:#c8e6c9,color:#000000
 ```
 
 #### Momentum Indicator Calculation
@@ -608,8 +608,8 @@ flowchart TD
     E["Vectorized Subtraction"] --> D
     F["GPU Acceleration"] --> E
 
-    style A fill:#e3f2fd
-    style D fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style D fill:#c8e6c9,color:#000000
 ```
 
 #### Volatility Index Calculation
@@ -626,8 +626,8 @@ flowchart TD
     H["Timeframe Mapping"] --> C
     I["Vectorized StdDev"] --> D
 
-    style A fill:#e3f2fd
-    style F fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style F fill:#c8e6c9,color:#000000
 ```
 
 #### Klinger Volume Oscillator (KVO) Calculation
@@ -646,8 +646,8 @@ flowchart TD
     H["PyTorch EMAs"] --> E
     I["Fast/Slow Parameters"] --> F
 
-    style A fill:#e3f2fd
-    style G fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style G fill:#c8e6c9,color:#000000
 ```
 
 #### Volume Zone Oscillator (VZO) Calculation
@@ -665,8 +665,8 @@ flowchart TD
     H["PyTorch EMAs"] --> E
     I["Safe Division"] --> G
 
-    style A fill:#e3f2fd
-    style G fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style G fill:#c8e6c9,color:#000000
 ```
 
 #### Enhanced DMA (EDMA) Calculation
@@ -676,15 +676,15 @@ flowchart TD
     A["Price Data"] --> B["Calculate HEXP and LEXP"]
     B --> C["Calculate WMA of LEXP (h_len/2)"]
     C --> D["Calculate WMA of LEXP (h_len)"]
-    D --> E["HMA Input = 2 × WMA(h_len/2) - WMA(h_len)"]
+    D --> E["HMA Input = 2 * WMA(h_len/2) - WMA(h_len)"]
     E --> F["Calculate WMA of HMA Input (sqrt(h_len))"]
 
     G["Numba State Arrays"] --> B
     H["Dynamic Windows"] --> C
     I["Hull Integration"] --> E
 
-    style A fill:#e3f2fd
-    style F fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style F fill:#c8e6c9,color:#000000
 ```
 
 #### Geometric Mean Moving Average (GMMA) Calculation
@@ -702,8 +702,8 @@ flowchart TD
     I["Zero Detection"] --> G
     J["NaN Handling"] --> C
 
-    style A fill:#e3f2fd
-    style G fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style G fill:#c8e6c9,color:#000000
 ```
 
 #### Ehler's Adaptive Laguerre Filter (EALF) Calculation
@@ -712,18 +712,18 @@ flowchart TD
 flowchart TD
     A["Price Data"] --> B["Initialize L0, L1, L2, L3"]
     B --> C["For each new price x:"]
-    C --> D["L0 = (1-γ)×x + γ×L0_prev"]
-    D --> E["L1 = -γ×L0 + L0_prev + γ×L1_prev"]
-    E --> F["L2 = -γ×L1 + L1_prev + γ×L2_prev"]
-    F --> G["L3 = -γ×L2 + L2_prev + γ×L3_prev"]
-    G --> H["EALF = (L0 + 2×L1 + 2×L2 + L3) / 6"]
+    C --> D["L0 = (1-gamma)*x + gamma*L0_prev"]
+    D --> E["L1 = -gamma*L0 + L0_prev + gamma*L1_prev"]
+    E --> F["L2 = -gamma*L1 + L1_prev + gamma*L2_prev"]
+    F --> G["L3 = -gamma*L2 + L2_prev + gamma*L3_prev"]
+    G --> H["EALF = (L0 + 2*L1 + 2*L2 + L3) / 6"]
 
     I["JAX Scan Operation"] --> C
     J["GPU Acceleration"] --> I
     K["JIT Compilation"] --> I
 
-    style A fill:#e3f2fd
-    style H fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style H fill:#c8e6c9,color:#000000
 ```
 
 #### MESA Adaptive Moving Average (MAMA/FAMA) Calculation
@@ -752,8 +752,8 @@ flowchart TD
     A["Price Data"] --> B["Calculate Price Ranges"]
     B --> C["Calculate Range Means"]
     C --> D["Normalize Ranges"]
-    D --> E["Adaptive Alpha = Base Alpha × (1 + λ × Normalized Range)"]
-    E --> F["REMA = α × Price + (1-α) × REMA_prev"]
+    D --> E["Adaptive Alpha = Base Alpha * (1 + lambda * Normalized Range)"]
+    E --> F["REMA = alpha * Price + (1-alpha) * REMA_prev"]
 
     G["Rolling Operations"] --> B
     H["Clipping"] --> E
@@ -770,7 +770,7 @@ flowchart TD
     A["Price Data"] --> B["Generate Sine Weights"]
     B --> C["Normalize Weights"]
     C --> D["Create Sliding Windows"]
-    D --> E["Weighted Sum = Σ(Weight_i × Price_i)"]
+    D --> E["Weighted Sum = Sum(Weight_i * Price_i)"]
     E --> F["SWMA = Weighted Sum / Sum of Weights"]
 
     G["PyTorch Sine Generation"] --> B
@@ -813,12 +813,12 @@ flowchart TD
     R --> O
     R --> P
     
-    style A fill:#e3f2fd
-    style K fill:#c8e6c9
-    style M fill:#c8e6c9
-    style O fill:#c8e6c9
-    style P fill:#c8e6c9
-    style C fill:#ffcdd2
+    style A fill:#e3f2fd,color:#000000
+    style K fill:#c8e6c9,color:#000000
+    style M fill:#c8e6c9,color:#000000
+    style O fill:#c8e6c9,color:#000000
+    style P fill:#c8e6c9,color:#000000
+    style C fill:#ffcdd2,color:#000000
 ```
 
 ### Memory Management Flow
@@ -844,8 +844,8 @@ flowchart TD
     G --> N[Return Final Result]
     K --> N
     
-    style A fill:#e3f2fd
-    style N fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style N fill:#c8e6c9,color:#000000
 ```
 
 ### Multi-threaded Processing Architecture
@@ -872,9 +872,9 @@ graph TD
     K[Progress Coordinator] --> F
     L[Memory Synchronizer] --> G
     
-    style A fill:#e3f2fd
-    style I fill:#c8e6c9
-    style F fill:#fff3e0
+    style A fill:#e3f2fd,color:#000000
+    style I fill:#c8e6c9,color:#000000
+    style F fill:#fff3e0,color:#000000
 ```
 
 ### Real-time Processing Pipeline
@@ -894,9 +894,9 @@ flowchart TD
     
     K[WebSocket/Files] --> A
     L[Database Update] --> G
-    
-    style A fill:#e3f2fd
-    style G fill:#c8e6c9
+
+    style A fill:#e3f2fd,color:#000000
+    style G fill:#c8e6c9,color:#000000
 ```
 
 ## 💰 Price Source Formulas
