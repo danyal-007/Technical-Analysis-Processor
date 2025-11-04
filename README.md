@@ -710,17 +710,17 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A[Price Data] --> B[Initialize L0, L1, L2, L3]
-    B --> C[For each new price x]
-    C --> D[L0 = (1-gamma)*x + gamma*L0_prev]
-    D --> E[L1 = -gamma*L0 + L0_prev + gamma*L1_prev]
-    E --> F[L2 = -gamma*L1 + L1_prev + gamma*L2_prev]
-    F --> G[L3 = -gamma*L2 + L2_prev + gamma*L3_prev]
-    G --> H[EALF = (L0 + 2*L1 + 2*L2 + L3) / 6]
+    A["Price Data"] --> B["Initialize L0, L1, L2, L3"]
+    B --> C["For each new price x"]
+    C --> D["L0 = 1-gamma times x + gamma times L0_prev"]
+    D --> E["L1 = -gamma times L0 + L0_prev + gamma times L1_prev"]
+    E --> F["L2 = -gamma times L1 + L1_prev + gamma times L2_prev"]
+    F --> G["L3 = -gamma times L2 + L2_prev + gamma times L3_prev"]
+    G --> H["EALF = L0 + 2 times L1 + 2 times L2 + L3 divided by 6"]
 
-    I[JAX Scan Operation] --> C
-    J[GPU Acceleration] --> I
-    K[JIT Compilation] --> I
+    I["JAX Scan Operation"] --> C
+    J["GPU Acceleration"] --> I
+    K["JIT Compilation"] --> I
 
     style A fill:#e3f2fd,color:#000000
     style H fill:#c8e6c9,color:#000000
