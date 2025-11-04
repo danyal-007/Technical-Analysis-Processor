@@ -1,3 +1,5 @@
 crypto_data/
 
 binance_downloader.py
+
+.ipynb_checkpoints/
