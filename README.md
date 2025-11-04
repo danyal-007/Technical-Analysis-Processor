@@ -506,9 +506,9 @@ graph TD
     N --> J
     N --> K
     
-    style C fill:#fff3e0
-    style D fill:#f3e5f5
-    style E fill:#e8f5e8
+    style C fill:#fff3e0,color:#000000
+    style D fill:#f3e5f5,color:#000000
+    style E fill:#e8f5e8,color:#000000
 ```
 
 ### Time Feature Generation Flow
@@ -741,8 +741,8 @@ flowchart TD
     I[Adaptive Parameters] --> E
     J[Two-Stage Smoothing] --> F
     
-    style A fill:#e3f2fd
-    style G fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style G fill:#c8e6c9,color:#000000
 ```
 
 #### Range EMA (REMA) Calculation
@@ -759,8 +759,8 @@ flowchart TD
     H["Clipping"] --> E
     I["Sequential Calculation"] --> F
 
-    style A fill:#e3f2fd
-    style F fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style F fill:#c8e6c9,color:#000000
 ```
 
 #### Sine-Weighted Moving Average (SWMA) Calculation
@@ -777,8 +777,8 @@ flowchart TD
     H["Vectorized Windows"] --> D
     I["GPU Acceleration"] --> H
 
-    style A fill:#e3f2fd
-    style F fill:#c8e6c9
+    style A fill:#e3f2fd,color:#000000
+    style F fill:#c8e6c9,color:#000000
 ```
 
 ### Error Handling and Fallback System
